@@ -60,9 +60,9 @@ console.log(subtractAges(ages))
 // will have to bring this question up to a mentor for clarification the next chance I get.
 
 
-function reply_click1(btn1a){
+function reply_click1(btn1a) {
     document.getElementById('solution1a').innerHTML = `Subtracting the first element from the last in the original array is 90`;     // this literal was returning the value of the array elements from the next problem????${JSON.stringify(subtractAges(ages))}
-    
+
 }
 
 
@@ -70,7 +70,7 @@ function reply_click1(btn1a){
 // ***********************************************************************************************************************************************************************
 // ************************************************************************************************************************************************************************
 // ************************************************************************************************************************************************************************
-   
+
 
 
 
@@ -93,9 +93,9 @@ console.log(`This is now the last element of the modified array
 console.log(`this is the value returned when subtracting the
 first age from the last age in the modified array `, subtractAges(ages));
 
-function reply_click2(solution1b){
+function reply_click2(solution1b) {
     document.getElementById('solution1b').innerHTML = `Subtracting the value of the first elemnt from the last in the modified array is ${JSON.stringify(subtractAges(ages))}`;
-    
+
 }
 
 // document.getElementById('solution1b').innerHTML = `Subrtacting the last element from the first in th modified array now equals ${JSON.stringify(subtractAges(ages))}`;
@@ -119,8 +119,8 @@ function averageAge(arr) {
 // printing answer to the console and the webpage
 console.log(averageAge(ages));
 
-function reply_click3(){
-document.getElementById('solution1c').innerHTML = `The average of all ages in the array is ${JSON.stringify(averageAge(ages))}`;
+function reply_click3() {
+    document.getElementById('solution1c').innerHTML = `The average of all ages in the array is ${JSON.stringify(averageAge(ages))}`;
 }
 
 
@@ -150,8 +150,8 @@ function letters(arr) {
 
 console.log('The average number of letters in each element of the array is ', names)
 
-function reply_click4(){
-document.getElementById('solution2a').innerHTML = `The average number of letters of each element in the names array is ${JSON.stringify(letters(names))}`;
+function reply_click4() {
+    document.getElementById('solution2a').innerHTML = `The average number of letters of each element in the names array is ${JSON.stringify(letters(names))}`;
 }
 
 // Section (b)
@@ -172,8 +172,8 @@ function namesSeparated(arr) {
 
 console.log(namesSeparated(names));
 
-function reply_click5(){
-document.getElementById('solution2b').innerHTML = `Concatenating all elements in the array with spaces in between returns ${JSON.stringify(namesSeparated(names))}`;
+function reply_click5() {
+    document.getElementById('solution2b').innerHTML = `Concatenating all elements in the array with spaces in between returns ${JSON.stringify(namesSeparated(names))}`;
 }
 
 
@@ -190,8 +190,8 @@ console.log('Problem 3');
 
 console.log('To access the last element of an array you would use the arrayName[arrayName - 1] code where arrayName === the name assigned to that particular array.');
 
-function reply_click6(){
-document.getElementById('solution3').innerHTML = "To access the last element of an array you would use the arrayName[arrayName - 1] code where arrayName === the name assigned to that particular array.";
+function reply_click6() {
+    document.getElementById('solution3').innerHTML = "To access the last element of an array you would use the arrayName[arrayName - 1] code where arrayName === the name assigned to that particular array.";
 }
 
 
@@ -208,8 +208,8 @@ console.log('Problem 4')
 
 console.log('To access the first element of any array, use the arrayName[0] code where arrayName === the name assigned to that particular array.');
 
-function reply_click7(){
-document.getElementById('solution4').innerHTML = 'To access the first element of any array, use the arrayName[0] code where arrayName === the name assigned to that particular array.';
+function reply_click7() {
+    document.getElementById('solution4').innerHTML = 'To access the first element of any array, use the arrayName[0] code where arrayName === the name assigned to that particular array.';
 }
 
 
@@ -249,8 +249,8 @@ function findLengths(arr) {
 console.log(findLengths(names));
 
 
-function reply_click8(){
-document.getElementById('solution5').innerHTML = `${JSON.stringify(findLengths(names))}`
+function reply_click8() {
+    document.getElementById('solution5').innerHTML = `${JSON.stringify(findLengths(names))}`
 }
 
 
@@ -271,8 +271,8 @@ function nameLengthsTotal(arr) {
 // printing result to the console and the document
 console.log(nameLengthsTotal(names));
 
-function reply_click9(){
-document.getElementById('solution6').innerHTML = `The sum of all elements in this array is: ${JSON.stringify(nameLengthsTotal(names))}`;
+function reply_click9() {
+    document.getElementById('solution6').innerHTML = `The sum of all elements in this array is: ${JSON.stringify(nameLengthsTotal(names))}`;
 }
 
 
@@ -301,8 +301,8 @@ repeat = function repeat(str, n) {
 
 console.log(repeat('Test', 5));
 
-function reply_click10(){
-document.getElementById('solution7').innerHTML = `${JSON.stringify(repeat('Test', 5))}`;
+function reply_click10() {
+    document.getElementById('solution7').innerHTML = `${JSON.stringify(repeat('Test', 5))}`;
 }
 
 
@@ -327,8 +327,8 @@ function fullName(str1, str2) {
 
 console.log(fullName('Chris', 'Deo'));
 
-function reply_click11(){
-document.getElementById('solution8').innerHTML = `The variables firstName and lastName are returned with a space in between when this function is called and passed the arguments "John", "Doe": ${JSON.stringify(fullName('John', 'Doe'))}`;
+function reply_click11() {
+    document.getElementById('solution8').innerHTML = `The variables firstName and lastName are returned with a space in between when this function is called and passed the arguments "John", "Doe": ${JSON.stringify(fullName('John', 'Doe'))}`;
 }
 
 
@@ -352,8 +352,8 @@ let data = [1, 5, 19, 64, 29];
 
 console.log("value of greaterThan function is - " + greaterThan(data));
 
-function reply_click12(){
-document.getElementById('solution9').innerHTML = `This function should display true if the sum of all elements in the array is equal to or greater than 100: ${JSON.stringify(greaterThan(data))}`;
+function reply_click12() {
+    document.getElementById('solution9').innerHTML = `This function should display true if the sum of all elements in the array is equal to or greater than 100: ${JSON.stringify(greaterThan(data))}`;
 }
 
 
@@ -383,8 +383,8 @@ function averageTwo(arr) {
 
 console.log('The average of data2 array is ' + averageTwo(data2));
 
-function reply_click13(){
-document.getElementById('solution10').innerHTML = `The average of all the elements in the array is: ${JSON.stringify(averageTwo(data2))}`;
+function reply_click13() {
+    document.getElementById('solution10').innerHTML = `The average of all the elements in the array is: ${JSON.stringify(averageTwo(data2))}`;
 }
 
 
@@ -408,22 +408,22 @@ function averageOfArrays(arr1, arr2) {
 
     for (i = 0; i < arr1.length; i++) {
         total1 = total1 + arr1[i];
-        
+
     }
 
     for (i = 0; i < arr2.length; i++) {
         total2 = total2 + arr2[i];
     }
-         let answer = (total1 / arr1.length) > (total2 / arr2.length)
-            return answer
-    }
-         
+    let answer = (total1 / arr1.length) > (total2 / arr2.length)
+    return answer
+}
+
 console.log(averageOfArrays(data3, data4));
 
 // setting up code to hide the solution until the 'get answer' button is clicked.
 
-function reply_click14(){
-document.getElementById("solution11").style.display = "hidden";
+function reply_click14() {
+    document.getElementById("solution11").style.display = "hidden";
 }
 
 document.getElementById('solution11').innerHTML = `If array1 is grater than array2, return ${JSON.stringify(averageOfArrays(data3, data4))}`
@@ -431,7 +431,7 @@ document.getElementById('solution11').innerHTML = `If array1 is grater than arra
 
 
 // function clicktest(num){
-    
+
 
 // }
 // console.log("test works!!")
@@ -456,8 +456,8 @@ function willBuyDrink(boolean, number) {
 
 console.log(willBuyDrink(isHotOutside, 11.00));
 
-function reply_click15(){
-document.getElementById('solution12').innerHTML = `This function will return true when "isHotOutside" is true AND money is greater than 10.50: ${JSON.stringify(willBuyDrink(isHotOutside, 11.37))} `;
+function reply_click15() {
+    document.getElementById('solution12').innerHTML = `This function will return true when "isHotOutside" is true AND money is greater than 10.50: ${JSON.stringify(willBuyDrink(isHotOutside, 11.37))} `;
 }
 
 
@@ -491,8 +491,8 @@ console.log(email.includes('steve@apple.com'));
 
 // document.getElementById('solution12').innerHTML = JSON.stringify(email.includes('steve@apple.com'));
 
-function reply_click16(){
-document.getElementById('solution13').innerHTML = `I initially created the simple function statement above as an answer to problem 13.
+function reply_click16() {
+    document.getElementById('solution13').innerHTML = `I initially created the simple function statement above as an answer to problem 13.
     However, since I had some extra time, I went back and turned this entire assignmnet into the answer for problem 13
                     by creating various functions to parse and display data returned by the functions created in each problem and
                     display it in specific areas of the page as a specific time or following a specific event, such as a click on a button.`
@@ -517,21 +517,21 @@ console.log(`I initially created the simple function statement above as an answe
 
 function openMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
         }
-      }
     }
-  }
+}
 
 // end of project page
 

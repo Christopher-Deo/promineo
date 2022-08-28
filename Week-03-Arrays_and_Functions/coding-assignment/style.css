@@ -1,9 +1,6 @@
-
-
-
 /* body styling section */
 
-body{
+body {
     background-color: #e4c5af;
     /* margin:20px; */
 }
@@ -11,7 +8,7 @@ body{
 
 /* Header styling section */
 
-#header{
+#header {
     background-color: #074f57;
     color: whitesmoke;
     /* border-radius: 6px; */
@@ -25,28 +22,28 @@ body{
 
 }
 
-h1{
-    font-family:'Courier New', 'Courier', 'monospace'; 
+h1 {
+    font-family: 'Courier New', 'Courier', 'monospace';
     font-weight: 400;
-    
+
 }
 
-.promineo-tech{
+.promineo-tech {
     display: flex;
     flex-direction: column;
-    
+
 
 }
 
-#promineo{
+#promineo {
     height: 75px;
-    width:75px;
+    width: 75px;
     margin-bottom: 25px;
     border-radius: 50%;
     border: double 5px lightblue;
 }
 
-#logo{
+#logo {
     height: 100px;
     width: 100px;
     border: solid 3px black;
@@ -55,14 +52,14 @@ h1{
 
 /* instructions section styling */
 
-#instructions{
+#instructions {
     background-color: #74A57f;
     color: whitesmoke;
     border-radius: 10px;
     padding: 25px 25px 25px 25px;
     margin-top: 25px;
     text-align: center;
-    font-family:'Courier New', 'Courier', 'monospace'; 
+    font-family: 'Courier New', 'Courier', 'monospace';
     margin-bottom: 25px;
 }
 
@@ -70,8 +67,8 @@ h1{
 
 /* Setting up and styling the container class that holds the question and answer div's for each problem on the assignment */
 
-.container{
-    font-family:'Courier New', 'Courier', 'monospace'; 
+.container {
+    font-family: 'Courier New', 'Courier', 'monospace';
     background-color: #74A57f;
     border-radius: 10px;
     display: flex;
@@ -85,32 +82,32 @@ h1{
 
 /* sets the styling for "problem x" for each problem on the assignment */
 
-.title{
+.title {
     text-align: center;
     text-decoration: underline;
     color: whitesmoke;
 }
 
 
-#problem{
-    font-family:'Courier New', 'Courier', 'monospace'; 
+#problem {
+    font-family: 'Courier New', 'Courier', 'monospace';
     background-color: #9ece9a;
     border-radius: 10px;
     align-items: center;
     padding: 30px;
     text-align: center;
-    margin:20px;
+    margin: 20px;
     margin-top: 30px;
-} 
+}
 
 /* Styling for the answer div on each problem on the assignment */
 
-.problem-statement{
-    font-family:'Courier New', 'Courier', 'monospace'; 
+.problem-statement {
+    font-family: 'Courier New', 'Courier', 'monospace';
 }
 
-#answer{
-    font-family:'Courier New', 'Courier', 'monospace'; 
+#answer {
+    font-family: 'Courier New', 'Courier', 'monospace';
     background-color: #e4c5af;
     border-radius: 10px;
     display: flex;
@@ -126,8 +123,8 @@ h1{
 
 /* Styling for "answers" heading */
 
-h3{
-    color:whitesmoke;
+h3 {
+    color: whitesmoke;
     text-decoration: underline;
     text-align: center;
     font-size: 1.55em;
@@ -137,9 +134,9 @@ h3{
 
 /* styling for each of the buttons located in the answer sections for each problem on the assignment */
 
-.ans-btn{
+.ans-btn {
     /* height: 20px; */
-    width:135px;
+    width: 135px;
     /* width: auto; */
     background-color: yellow;
     border-radius: 10px;
@@ -148,7 +145,7 @@ h3{
 
 
 /* footer section styling */
-footer{
+footer {
     height: 100px;
     background-color: #074f57;
     color: whitesmoke;
@@ -165,14 +162,14 @@ footer{
 /* styling for the button in the footer */
 /* button takes you to my github repository for this assignment */
 
-.github{
-    display:flex;
+.github {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.footer-btn{
+.footer-btn {
     /* height: 30px; */
     background-color: yellow;
     /* font-weight: 600; */
@@ -180,7 +177,7 @@ footer{
     /* border-style: solid px; */
     /* border-color: blue; */
     border: 3px solid blue;
-   }
+}
 
 
 
@@ -189,31 +186,31 @@ footer{
 
 /* This styling changes the cursor from the arrow pointer to the hand when a button is hovered over */
 
-.ans-btn{
-    cursor:pointer
+.ans-btn {
+    cursor: pointer
 }
 
-.footer-btn{
-    cursor:pointer;
+.footer-btn {
+    cursor: pointer;
 }
 
 /* Creating the hover effect for each button on the page */
 /* Styling of each button will change when the cursor hovers over each one */
 
-.ans-btn:hover{
+.ans-btn:hover {
     cursor: pointer;
-  color: blue;
-  font-weight: 800;
-  box-shadow: 0 0 15px yellow;
-  border: dashed 3px red;
+    color: blue;
+    font-weight: 800;
+    box-shadow: 0 0 15px yellow;
+    border: dashed 3px red;
 }
 
-.footer-btn:hover{
+.footer-btn:hover {
     cursor: pointer;
-  color: blue;
-  font-weight: 800;
-  box-shadow: 0 0 15px yellow;
-  border: dashed 3px red;
+    color: blue;
+    font-weight: 800;
+    box-shadow: 0 0 15px yellow;
+    border: dashed 3px red;
 }
 
 
@@ -221,11 +218,11 @@ footer{
 
 /* css for nav bar with drop down menu function */
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -237,56 +234,58 @@ li{
     background-color: teal;
     color: #fff;
     height: 15px;
-   }
-   .nav-links a {
-    color: #fff;
-   }
+}
 
-   .menu{
+.nav-links a {
+    color: #fff;
+}
+
+.menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
-   }
+}
 
-   .menu li:hover{
-    background-color:#074f57;
+.menu li:hover {
+    background-color: #074f57;
     border-radius: 5px;
     transition: 0.3s ease;
-   }
+}
 
-   .menu li {
+.menu li {
     padding: 5px 14px;
-   }
+}
 
-   .services {
-    position: relative; 
-   }
-   .dropdown {
+.services {
+    position: relative;
+}
+
+.dropdown {
     background-color: rgb(1, 139, 139);
     padding: 1em 0;
-    position: absolute; 
+    position: absolute;
     display: none;
     border-radius: 8px;
     top: 35px;
-   }
+}
 
-   dropdown li + li {
+dropdown li+li {
     margin-top: 10px;
-   }
+}
 
-   .dropdown li {
+.dropdown li {
     padding: 0.5em 1em;
     width: 8em;
     text-align: center;
-   }
+}
 
-   .dropdown li:hover {
+.dropdown li:hover {
     background-color: #4c9e9e;
-   }
+}
 
-   .services:hover .dropdown {
+.services:hover .dropdown {
     display: block;
-   }
+}
 
 
 
@@ -304,20 +303,20 @@ li{
     border: none;
     cursor: pointer;
   } */
-  
-  /* Dropdown button on hover & focus */
-  /* .dropbtn:hover, .dropbtn:focus {
+
+/* Dropdown button on hover & focus */
+/* .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
   }
   
   /* The container <div> - needed to position the dropdown content */
-  /* .dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
-  } */ */
-  
-  /* Dropdown Content (Hidden by Default) */
-  /* .dropdown-content {
+  } */
+*/
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -325,17 +324,17 @@ li{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   } */
-  
-  /* Links inside the dropdown */
-  /* .dropdown-content a {
+
+/* Links inside the dropdown */
+/* .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
    */
-  /* Change color of dropdown links on hover */
-  /* .dropdown-content a:hover {background-color: #ddd} */
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  /* .show {display:block;} */
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd} */
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* .show {display:block;} */
