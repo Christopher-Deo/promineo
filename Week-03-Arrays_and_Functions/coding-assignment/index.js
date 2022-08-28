@@ -105,7 +105,7 @@ function reply_click2(solution1b) {
 // Create a loop to iterate through the array and calculate average age.
 // Print the result to the console.
 
-console.log('Section C');
+console.log('Section C');   
 
 function averageAge(arr) {
     var total = 0;
@@ -325,7 +325,7 @@ function fullName(str1, str2) {
 
 // printing solution to the console and the document
 
-console.log(fullName('Chris', 'Deo'));
+console.log(fullName('john', 'Doe'));
 
 function reply_click11() {
     document.getElementById('solution8').innerHTML = `The variables firstName and lastName are returned with a space in between when this function is called and passed the arguments "John", "Doe": ${JSON.stringify(fullName('John', 'Doe'))}`;
@@ -422,12 +422,9 @@ console.log(averageOfArrays(data3, data4));
 
 // setting up code to hide the solution until the 'get answer' button is clicked.
 
-function reply_click14() {
-    document.getElementById("solution11").style.display = "hidden";
-}
-
+function reply_click14(){
 document.getElementById('solution11').innerHTML = `If array1 is grater than array2, return ${JSON.stringify(averageOfArrays(data3, data4))}`
-
+}
 
 
 // function clicktest(num){
@@ -519,19 +516,19 @@ function openMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function (event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
+// // Close the dropdown menu if the user clicks outside of it
+// window.onclick = function (event) {
+//     if (!event.target.matches('.dropbtn')) {
+//         var dropdowns = document.getElementsByClassName("dropdown-content");
+//         var i;
+//         for (i = 0; i < dropdowns.length; i++) {
+//             var openDropdown = dropdowns[i];
+//             if (openDropdown.classList.contains('show')) {
+//                 openDropdown.classList.remove('show');
+//             }
+//         }
+//     }
+// }
 
 // end of project page
 
@@ -540,24 +537,3 @@ window.onclick = function (event) {
 
 
 
-// want to add click button to show answer functionality to each problem on the page
-// did something like this on another project using the code below
-// may be able to be used as a template of sorts?
-
-// // variables for footer and email handling
-
-// let footer = document.querySelector("footer");
-// let signUpForm = document.querySelector(".email-sign-up");
-// let input = document.querySelector("input");
-// let signUpBtn = document.querySelector("#sign-up");
-
-// // function to add email field and button functionality
-
-// function emailSubmitHandler() {
-//     var confirmationMsg = document.createElement("p");
-//     confirmationMsg.textContent = "Thank you for signing up " + input.value;
-//     signUpForm.remove();
-//     footer.appendChild(confirmationMsg);
-// }
-
-// signUpBtn.addEventListener("click", emailSubmitHandler)

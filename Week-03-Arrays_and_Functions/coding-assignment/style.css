@@ -234,6 +234,7 @@ li {
     background-color: teal;
     color: #fff;
     height: 15px;
+    cursor: pointer;
 }
 
 .nav-links a {
