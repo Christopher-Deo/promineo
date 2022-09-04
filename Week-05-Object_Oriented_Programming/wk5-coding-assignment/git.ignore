@@ -1,5 +1,6 @@
-DS_Store
-*.docx
-*.pdf
-*.pages
+./DS_Store
+./*.docx
+./*.pdf
+./*.pages
 index JS.pages
+Vehicle Menu App Code.pages

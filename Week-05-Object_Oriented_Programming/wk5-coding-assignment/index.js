@@ -50,7 +50,7 @@ class Vehicle{
 //      	}     
 
 
-//              describe(){           ////THIS METHOD NOT TESTED YET!!!!!!!!!!!!!!
+//              describe(){          
 //             return ` The ${this.trimLevel} has ${this.vehicleList.length} vehicles`;  
 //         	}
 
@@ -156,14 +156,14 @@ class Menu {
         }
 
   		//method to create new vehicles
-        createVehicle(){                    //*******************TESTED TO WORK!****************
+        createVehicle(){                    
             let make = prompt('Enter make of new vehicle you want to create:');
             let model = prompt('Enter the model of the vehicle you want to create:')
             this.vehicles.push(new Vehicle(make, model));
         		}
 
 		//method to view vehicles
-        viewVehicle(){                    //*******************TESTED TO WORK!****************
+        viewVehicle(){                   
             let list = this.vehicleDisplayList();
             let index = prompt(`Enter the index of the vehicle you wish to view:
                 ${list}  
@@ -174,14 +174,14 @@ class Menu {
                     let description = 'Vehicle Make: ' + this.selectedVehicle.make + '\n';
 
                 for (let i = 0; i < this.selectedVehicle.vehicleList.length; i++ ){
-                   description += i + ') ' + this.selectedVehicle.vehicleList[i].name + ' - ' + 						this.selectedVehicle.vehicleList[i].trimLevel + '\n';
+                   description += i + ') ' + this.selectedVehicle.vehicleList[i].name + ' - ' + this.selectedVehicle.vehicleList[i].trimLevel + '\n';
                 	}     //for statement closure
 
 
                     // code block below makes the sub-menu for "view vehicle" choice in main menu work.
                     //Should add and delete vehicle options.
                 let selection = this.showOptionsMenuChoices(description);
-                  switch(selection){                   //=========================NOT WORKING!==================
+                  switch(selection){                   
                      case "1": this.createOptions();
                         break
                      case "2": this.deleteOptions();
@@ -190,7 +190,7 @@ class Menu {
         }      //viewVehicle method closure
 
         
-        deleteVehicle() {               //*******************TESTED TO WORK!****************
+        deleteVehicle() {               
             let list = this.vehicleDisplayList();
             console.log(list);
             let index = prompt(`enter the index of the vehicle you wish to delete: 
